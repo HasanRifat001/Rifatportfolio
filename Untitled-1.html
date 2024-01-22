@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifat Hasan's Portfolio</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .portfolio-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            flex: 0 1 48%;
+            margin-bottom: 10px;
+        }
+
+        .experience {
+            margin-top: 20px;
+        }
+
+        .experience-item {
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+            margin-bottom: 40px; /* Add margin-bottom to create space */
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            margin-top: 20px; /* Adjust margin-top to create space above the footer */
+        }
+
+        .nav-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .nav-links a.home-link {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .work-together-button {
+            background-color: #ffd700;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-links">
+            <a class="home-link" href="Untitled-2.html">Home</a>
+            <a href="Untitled-1.html">About </a>
+            <a href="Untitled-3.html">Contact Me</a>
+            <a href="Untitled-1.html">Journal</a>
+            <a href="Untitled-4.html">Project</a>
+            <button class="work-together-button">Let's Work Together</button>
+        </div>
+        <img src="rifat.jpg" alt="Rifat Hasan's Photo" height="200px">
+        <p>Aspiring Entrepreneur</p>
+    </header>
+
+   
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I'm Rifat Hasan, an aspiring entrepreneur passionate about creating innovative solutions.</p>
+
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Entrepreneurship</div>
+            <div class="skill">Team Collaboration</div>
+            <div class="skill">Project Management</div>
+            <div class="skill">Communication</div>
+        </div>
+
+        <h2>Experience</h2>
+        <div class="experience">
+            <div class="experience-item">
+                <h3>Emir Apparel Co-founder</h3>
+                <p>Co-founded and led a startup focused on providing innovative Designing Clothes manifesting the culture.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Tech Company ABC - Intern</h3>
+                <p>Internship role involving web development and gaining hands-on experience in the tech field.</p>
+            </div>
+        </div>
+
+        <h2>My Projects</h2>
+        <div class="portfolio-item">
+            <h3>Project 1</h3>
+            <p>Hospital Management system.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project 2</h3>
+            <p>Interactive QUIZ GAME web VERSION.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Project 3</h3>
+            <p>Finding the Cheapest Medicine according to their generic Name.</p>
+        </div>
+
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p>Contact: shaderichrifat@example.com | Connect with me on <a href="https://linkedin.com/in/rifathasan" target="_blank">LinkedIn</a></p>
+    </div>
+
+</body>
+
+</html>
